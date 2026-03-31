@@ -22,7 +22,7 @@ Here is a short summary of my commit history:
 
 ## Video Demo
 
-Video link: [Paste your unlisted YouTube or Vimeo link here]
+Video link: [https://youtu.be/vYrQ2q0Z0P0]
 
 ## Reflection
 

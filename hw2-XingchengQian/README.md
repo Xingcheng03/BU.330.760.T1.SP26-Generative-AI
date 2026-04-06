@@ -29,17 +29,21 @@ pip install google-genai python-dotenv
 
 ### 2. Set your Gemini API key
 
-Create a `.env` file in this folder:
+A `.env` file is required but is not included in this repository for security reasons.
+A template is provided as `.env.example`. Copy it and fill in your key:
+
+```bash
+cp .env.example .env
+# then open .env and replace the placeholder with your actual key
+```
+
+The `.env` file should contain:
 
 ```
 GEMINI_API_KEY=your_key_here
 ```
 
-Or export it as an environment variable:
-
-```bash
-export GEMINI_API_KEY=your_key_here
-```
+You can get a free API key at [aistudio.google.com](https://aistudio.google.com) → Get API key.
 
 ### 3. Run the app
 

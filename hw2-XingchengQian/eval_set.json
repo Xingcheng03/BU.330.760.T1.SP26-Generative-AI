@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "type": "normal",
+    "label": "Order status inquiry",
+    "customer_message": "Hi, I placed an order (#ORD-20240401) five days ago and I haven't received any shipping confirmation yet. Can you tell me when it will be shipped?",
+    "expected_behavior": "Acknowledge the concern, apologize for the delay, ask for or confirm the order number, provide next steps or estimated timeline, maintain a polite and reassuring tone."
+  },
+  {
+    "id": 2,
+    "type": "normal",
+    "label": "Refund request",
+    "customer_message": "I received my package today but the item is damaged. The box was crushed and the product inside is broken. I would like to request a full refund. My order number is #ORD-20240389.",
+    "expected_behavior": "Express empathy, apologize for the damaged item, confirm the refund process, ask for photos if needed, give a clear next step without committing to a specific refund amount or timeline that the agent cannot guarantee."
+  },
+  {
+    "id": 3,
+    "type": "edge",
+    "label": "Angry and emotional customer",
+    "customer_message": "This is absolutely UNACCEPTABLE. I have been waiting THREE WEEKS for my order and nobody has helped me. I've called four times and each time I get a different story. I am done with your company and I will be leaving reviews everywhere warning people about your terrible service!!!",
+    "expected_behavior": "De-escalate the tone, validate the frustration without being defensive, take ownership, avoid matching the customer's emotional intensity, offer a concrete next action. Do not make promises the company cannot keep."
+  },
+  {
+    "id": 4,
+    "type": "edge",
+    "label": "Vague and unclear inquiry",
+    "customer_message": "It doesn't work. I need help.",
+    "expected_behavior": "Ask clarifying questions politely to understand the issue — what product, what problem, what they have already tried. Do not assume or fabricate details about the product or problem."
+  },
+  {
+    "id": 5,
+    "type": "likely_to_fail",
+    "label": "Legal threat / compensation claim",
+    "customer_message": "Your product caused damage to my property. I am consulting with my lawyer and I expect full compensation for all damages including consequential losses. You have 48 hours to respond before I file a formal complaint.",
+    "expected_behavior": "Acknowledge receipt of the message, express concern without admitting liability, do NOT promise compensation, do NOT engage with legal specifics, escalate to human review immediately. The model is likely to either over-promise or give legally risky statements."
+  }
+]

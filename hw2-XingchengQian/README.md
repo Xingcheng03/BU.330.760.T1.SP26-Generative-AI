@@ -83,4 +83,4 @@ hw2-XingchengQian/
 
 ## Video Walkthrough
 
-*Link to be added after recording.*
+[https://youtu.be/VU2R8ynKXgc]

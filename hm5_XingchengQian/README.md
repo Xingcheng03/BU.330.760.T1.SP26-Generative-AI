@@ -1,6 +1,6 @@
 # Homework 5: Frontend Layout Audit Skill
 
-Video link: TODO - replace this line with the Zoom, YouTube, or Vimeo walkthrough link before submitting to Canvas.
+Video link: [https://youtu.be/O_8xV7EPDxE]
 
 ## What This Skill Does
 
@@ -223,7 +223,3 @@ This skill creates a practical feedback loop for frontend AI coding. The model c
 - It does not perform full accessibility testing.
 - It does not judge visual taste or brand quality.
 - It requires a URL that Chromium can open.
-
-## Submission Notes
-
-Submit the GitHub repository link in Canvas. Before submitting, replace the TODO video line at the top of this README with the final 45-90 second walkthrough video link.

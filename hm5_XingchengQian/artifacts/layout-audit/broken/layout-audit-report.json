@@ -1,0 +1,224 @@
+{
+  "url": "http://localhost:8000/broken.html",
+  "generatedAt": "2026-04-27T22:07:23",
+  "screenshots": {
+    "desktop": "artifacts\\layout-audit\\broken\\screenshots\\desktop-1440x900.png",
+    "mobile": "artifacts\\layout-audit\\broken\\screenshots\\mobile-390x844.png"
+  },
+  "viewports": {
+    "desktop": {
+      "title": "Broken Layout Demo",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollWidth": 1824,
+      "scrollHeight": 900,
+      "horizontalOverflow": true,
+      "horizontalOverflowPixels": 384,
+      "interactiveCount": 4,
+      "offscreenControls": [],
+      "smallTouchTargets": [
+        {
+          "selector": "button.tiny-button",
+          "tag": "button",
+          "text": "?",
+          "rect": {
+            "x": 49,
+            "y": 415,
+            "width": 28,
+            "height": 24,
+            "left": 49,
+            "top": 415,
+            "right": 77,
+            "bottom": 439
+          }
+        }
+      ],
+      "brokenImages": [
+        {
+          "selector": "img:nth-child(7)",
+          "src": "http://localhost:8000/missing-product-shot.png",
+          "rect": {
+            "x": 49,
+            "y": 635,
+            "width": 320,
+            "height": 180,
+            "left": 49,
+            "top": 635,
+            "right": 369,
+            "bottom": 815
+          }
+        }
+      ],
+      "clippedText": [
+        {
+          "selector": "div.clipped-card",
+          "text": "This text is intentionally too long for the fixed-height card, so the content be",
+          "rect": {
+            "x": 49,
+            "y": 459,
+            "width": 260,
+            "height": 48,
+            "left": 49,
+            "top": 459,
+            "right": 309,
+            "bottom": 507
+          },
+          "scrollWidth": 258,
+          "clientWidth": 258,
+          "scrollHeight": 109,
+          "clientHeight": 46
+        }
+      ],
+      "overlaps": [
+        {
+          "first": {
+            "selector": "button.primary",
+            "text": "Save Changes",
+            "rect": {
+              "x": 49,
+              "y": 547,
+              "width": 150,
+              "height": 48,
+              "left": 49,
+              "top": 547,
+              "right": 199,
+              "bottom": 595
+            }
+          },
+          "second": {
+            "selector": "button.secondary",
+            "text": "Discard Draft",
+            "rect": {
+              "x": 145,
+              "y": 547,
+              "width": 150,
+              "height": 48,
+              "left": 145,
+              "top": 547,
+              "right": 295,
+              "bottom": 595
+            }
+          },
+          "overlapArea": 2592
+        }
+      ]
+    },
+    "mobile": {
+      "title": "Broken Layout Demo",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 1824,
+      "scrollHeight": 926,
+      "horizontalOverflow": true,
+      "horizontalOverflowPixels": 1434,
+      "interactiveCount": 4,
+      "offscreenControls": [
+        {
+          "selector": "button.offscreen-action",
+          "tag": "button",
+          "text": "Offscreen Action",
+          "rect": {
+            "x": 903,
+            "y": 363,
+            "width": 180,
+            "height": 44,
+            "left": 903,
+            "top": 363,
+            "right": 1083,
+            "bottom": 407
+          }
+        }
+      ],
+      "smallTouchTargets": [
+        {
+          "selector": "button.tiny-button",
+          "tag": "button",
+          "text": "?",
+          "rect": {
+            "x": 49,
+            "y": 461,
+            "width": 28,
+            "height": 24,
+            "left": 49,
+            "top": 461,
+            "right": 77,
+            "bottom": 485
+          }
+        }
+      ],
+      "brokenImages": [
+        {
+          "selector": "img:nth-child(7)",
+          "src": "http://localhost:8000/missing-product-shot.png",
+          "rect": {
+            "x": 49,
+            "y": 681,
+            "width": 320,
+            "height": 180,
+            "left": 49,
+            "top": 681,
+            "right": 369,
+            "bottom": 861
+          }
+        }
+      ],
+      "clippedText": [
+        {
+          "selector": "div.clipped-card",
+          "text": "This text is intentionally too long for the fixed-height card, so the content be",
+          "rect": {
+            "x": 49,
+            "y": 505,
+            "width": 260,
+            "height": 48,
+            "left": 49,
+            "top": 505,
+            "right": 309,
+            "bottom": 553
+          },
+          "scrollWidth": 258,
+          "clientWidth": 258,
+          "scrollHeight": 109,
+          "clientHeight": 46
+        }
+      ],
+      "overlaps": [
+        {
+          "first": {
+            "selector": "button.primary",
+            "text": "Save Changes",
+            "rect": {
+              "x": 49,
+              "y": 593,
+              "width": 150,
+              "height": 48,
+              "left": 49,
+              "top": 593,
+              "right": 199,
+              "bottom": 641
+            }
+          },
+          "second": {
+            "selector": "button.secondary",
+            "text": "Discard Draft",
+            "rect": {
+              "x": 145,
+              "y": 593,
+              "width": 150,
+              "height": 48,
+              "left": 145,
+              "top": 593,
+              "right": 295,
+              "bottom": 641
+            }
+          },
+          "overlapArea": 2592
+        }
+      ]
+    }
+  }
+}

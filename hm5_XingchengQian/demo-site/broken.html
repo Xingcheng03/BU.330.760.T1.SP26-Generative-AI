@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Broken Layout Demo</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      color: #151515;
+      background: #f4f5f7;
+      font-family: Arial, Helvetica, sans-serif;
+      line-height: 1.45;
+    }
+
+    .sticky-warning {
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 10;
+      width: 100%;
+      height: 76px;
+      padding: 18px 24px;
+      color: white;
+      background: #8b1e3f;
+    }
+
+    main {
+      padding: 44px 24px 40px;
+    }
+
+    .wide-strip {
+      width: 1800px;
+      margin-top: 36px;
+      padding: 18px;
+      color: white;
+      background: #174c4f;
+    }
+
+    .dashboard {
+      position: relative;
+      width: 920px;
+      min-height: 360px;
+      margin-top: 24px;
+      padding: 24px;
+      background: white;
+      border: 1px solid #d2d8dd;
+      border-radius: 8px;
+    }
+
+    .offscreen-action {
+      position: absolute;
+      top: 40px;
+      right: -140px;
+      min-width: 180px;
+      min-height: 44px;
+      border: 0;
+      border-radius: 6px;
+      color: white;
+      background: #2855a3;
+    }
+
+    .tiny-button {
+      width: 28px;
+      height: 24px;
+      padding: 0;
+      border: 0;
+      color: white;
+      background: #222;
+    }
+
+    .clipped-card {
+      width: 260px;
+      height: 48px;
+      overflow: hidden;
+      margin-top: 20px;
+      padding: 8px;
+      border: 1px solid #b9c0c7;
+      background: #eef0f2;
+    }
+
+    .overlap-zone {
+      position: relative;
+      height: 80px;
+      margin-top: 28px;
+    }
+
+    .overlap-zone button {
+      position: absolute;
+      top: 12px;
+      width: 150px;
+      height: 48px;
+      border: 0;
+      border-radius: 6px;
+      color: white;
+    }
+
+    .primary {
+      left: 0;
+      background: #1f6f59;
+    }
+
+    .secondary {
+      left: 96px;
+      background: #6d3ca3;
+    }
+
+    img {
+      display: block;
+      width: 320px;
+      height: 180px;
+      margin-top: 20px;
+      object-fit: cover;
+      border: 1px solid #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="sticky-warning">Fixed banner overlaps the top of the page and simulates a common AI-generated layout mistake.</div>
+
+  <main>
+    <h1>Broken layout demo</h1>
+    <p>This page intentionally contains measurable layout problems for the frontend-layout-audit skill.</p>
+
+    <div class="wide-strip">This extra-wide strip creates horizontal overflow on both desktop and mobile.</div>
+
+    <section class="dashboard" aria-label="Broken dashboard">
+      <h2>Dashboard actions</h2>
+      <p>The action button is positioned beyond the right edge of its container.</p>
+      <button class="offscreen-action" type="button">Offscreen Action</button>
+      <button class="tiny-button" type="button">?</button>
+
+      <div class="clipped-card">
+        This text is intentionally too long for the fixed-height card, so the content becomes clipped instead of wrapping visibly.
+      </div>
+
+      <div class="overlap-zone">
+        <button class="primary" type="button">Save Changes</button>
+        <button class="secondary" type="button">Discard Draft</button>
+      </div>
+
+      <img src="./missing-product-shot.png" alt="This image is intentionally missing">
+    </section>
+  </main>
+</body>
+</html>

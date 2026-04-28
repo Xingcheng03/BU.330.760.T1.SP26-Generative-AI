@@ -1,0 +1,44 @@
+{
+  "url": "http://localhost:8000/good.html",
+  "generatedAt": "2026-04-27T21:24:06",
+  "screenshots": {
+    "desktop": "artifacts\\layout-audit\\good\\screenshots\\desktop-1440x900.png",
+    "mobile": "artifacts\\layout-audit\\good\\screenshots\\mobile-390x844.png"
+  },
+  "viewports": {
+    "desktop": {
+      "title": "Good Layout Demo",
+      "viewport": {
+        "width": 1440,
+        "height": 900
+      },
+      "scrollWidth": 1440,
+      "scrollHeight": 900,
+      "horizontalOverflow": false,
+      "horizontalOverflowPixels": 0,
+      "interactiveCount": 3,
+      "offscreenControls": [],
+      "smallTouchTargets": [],
+      "brokenImages": [],
+      "clippedText": [],
+      "overlaps": []
+    },
+    "mobile": {
+      "title": "Good Layout Demo",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "scrollWidth": 390,
+      "scrollHeight": 940,
+      "horizontalOverflow": false,
+      "horizontalOverflowPixels": 0,
+      "interactiveCount": 3,
+      "offscreenControls": [],
+      "smallTouchTargets": [],
+      "brokenImages": [],
+      "clippedText": [],
+      "overlaps": []
+    }
+  }
+}
